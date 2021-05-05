@@ -1,1 +1,3 @@
  + Following a tutorial for Spring and Thymeleaf to learn how to eventually build a photo Upload form, which I will be modifying for use in other on-going projects. This feature is intended for web applications with java backends. 
+
++ The sample User class does not contain any security authentication or encryption for the password variable yet, because this is just a template I created to learn how to implement a photo upload feature in other projects that already contain security authentication in the User classes.
