@@ -4,6 +4,7 @@ import main.java.org.launchcode.Basic.User.Form.Models.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.Arrays;
 import java.util.List;
@@ -23,7 +24,11 @@ public class FormController {
         return "register_form";
     }
 
-
-
+    @PostMapping("/register")
+    public String submitForm(Model model, User user){
+       //Redoing this for use in a rest api with Repository.
+        model.addAttribute("user", user);
+        return "register_success";
+    }
 
 }
