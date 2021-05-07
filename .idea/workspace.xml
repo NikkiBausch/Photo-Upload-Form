@@ -23,40 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a25bd97-650b-4212-b648-7eccecf608cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_23.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_30_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_27_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_4_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Controllers/PlayListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Data/PlayListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Data/PlayListService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Models/Playlists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/new_playlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/edit_playlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic-User-Form/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Controllers/PlayListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Controllers/PlayListController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,30 +149,30 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1620258757236" />
-    <state x="543" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620270852212">
+    <state x="543" y="232" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620424665986">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="543" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1620270852212" />
+    <state x="543" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1620424665986" />
     <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1620337619068">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1620337619068" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1620289537732">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1620346335830">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1620289537732" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1620289537731">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1620346335830" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1620346335829">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1620289537731" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1620289537649">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1620346335829" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1620346335828">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1620289537649" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1620289537731">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1620346335828" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1620346335829">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1620289537731" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1620346335829" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1620253402511">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
