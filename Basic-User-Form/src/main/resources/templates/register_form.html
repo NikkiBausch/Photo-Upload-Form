@@ -28,9 +28,20 @@
 </style>
 </head>
 <body>
+
 <div align="center">
     <h1>User Registration</h1>
-    <form action="#" th:action="@{/register}" method="post" th:object="${user}">
+
+    <form th:action="@{/users/save}"
+          th:object="${user}" method="post"
+          enctype="multipart/form-data">
+        <div>
+
+            <label>Photos: </label>
+            <input type="file" name="image" accept="image/png, image/jpeg" />
+
+        </div>
+
         <label>Choose Username:</label>
         <input type="text" th:field="*{username}" /><br/>
 

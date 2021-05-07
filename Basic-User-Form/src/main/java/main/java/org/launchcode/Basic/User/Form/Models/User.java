@@ -1,6 +1,16 @@
 package main.java.org.launchcode.Basic.User.Form.Models;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="users")
 public class User {
+
+    @Column(nullable=true, length= 64)
+    private String photo;
+
     private String username;
     private String email;
     private String password;
@@ -8,7 +18,8 @@ public class User {
     private String musicPreference;
 
 
-    public User(String username, String email, String password, String userInfo, String musicPreference) {
+    public User(String photo, String username, String email, String password, String userInfo, String musicPreference) {
+        this.photo=photo;
         this.username = username;
         this.email = email;
         this.password = password;
@@ -19,6 +30,14 @@ public class User {
 
     public User(){
 
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 
     public String getMusicPreference() {
@@ -64,6 +83,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
+                "photo='" + photo + '\'' +
                 "username='" + username + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
