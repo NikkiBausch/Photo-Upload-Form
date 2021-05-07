@@ -2,6 +2,8 @@ package main.java.org.launchcode.Basic.User.Form.Models;
 
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 @Entity
 public class Playlists {
@@ -22,7 +24,7 @@ public class Playlists {
     public Playlists(){}
 
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue
     public Long getId() {
         return id;
     }
