@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="ISO-8859-1">
     <title>Basic User Profile Form</title>
@@ -9,5 +10,35 @@
     <h1>Basic User Profile Form</h1>
     <a href= "/register" >Click here to register</a>
     </div>
+<div align="center">
+    <h2>New PlayLists</h2>
+    <a href="/new">Create New PlayList</a>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+        <tr>
+            <th>PlayList id</th>
+            <th>Artist</th>
+            <th>Song title</th>
+            <th>Genre</th>
+            <th>Mood Classification</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="product : ${listPlaylists}">
+            <td th:text="${playlists.id}">PlayList ID</td>
+            <td th:text="${playlists.artist}">Artist</td>
+            <td th:text="${playlists.songTitle}">Song Title</td>
+            <td th:text="${playlists.genre}">Genre</td>
+            <td th:text="${playlists.moodType}">Mood Classification</td>
+            <td>
+                <a th:href="/@{'/edit/' + ${playlists.id}}">Edit</a>
+                &nbsp;&nbsp;&nbsp;
+                <a th:href="/@{'/delete/' + ${playlists.id}}">Delete</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 </body>
 </html>
