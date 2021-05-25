@@ -1,13 +1,12 @@
 package main.java.org.launchcode.Basic.User.Form.Models;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name="users")
 public class User {
 
+    private Long userId;
     @Column(nullable=true, length= 64)
     private String photo;
 
@@ -18,7 +17,8 @@ public class User {
     private String musicPreference;
 
 
-    public User(String photo, String username, String email, String password, String userInfo, String musicPreference) {
+    public User(Long userId, String photo, String username, String email, String password, String userInfo, String musicPreference) {
+        this.userId=userId;
         this.photo=photo;
         this.username = username;
         this.email = email;
@@ -30,6 +30,22 @@ public class User {
 
     public User(){
 
+    }
+
+    @Transient
+    public String getPhotosImagePath() {
+        if (photo == null || userId == null) return null;
+
+        return "/user-photos/" + userId + "/" + photo;
+    }
+    @Id
+    @GeneratedValue
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
     }
 
     public String getPhoto() {
@@ -83,6 +99,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
+                "userId='" + userId + '\''+
                 "photo='" + photo + '\'' +
                 "username='" + username + '\'' +
                 ", email='" + email + '\'' +

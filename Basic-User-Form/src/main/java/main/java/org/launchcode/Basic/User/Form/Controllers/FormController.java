@@ -1,40 +1,47 @@
 package main.java.org.launchcode.Basic.User.Form.Controllers;
 
+import main.java.org.launchcode.Basic.User.Form.Data.FileUploadUtil;
+import main.java.org.launchcode.Basic.User.Form.Data.UserRepository;
 import main.java.org.launchcode.Basic.User.Form.Models.User;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.view.RedirectView;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
 
 @Controller
 public class FormController {
-    /*@Controller
-public class UserController {
+ 
 
     @Autowired
-    private UserRepository repo;
+    private UserRepository userRepository;
+
 
     @PostMapping("/users/save")
     public RedirectView saveUser(User user,
-            @RequestParam("image") MultipartFile multipartFile) throws IOException {
+                                 @RequestParam("image") MultipartFile multipartFile) throws IOException {
 
         String fileName = StringUtils.cleanPath(multipartFile.getOriginalFilename());
-        user.setPhotos(fileName);
+        user.setPhoto(fileName);
 
-        User savedUser = repo.save(user);
+        User savedUser = userRepository.save(user);
 
-        String uploadDir = "user-photos/" + savedUser.getId();
+        String uploadDir = "user-photo/" + savedUser.getUserId();
 
         FileUploadUtil.saveFile(uploadDir, fileName, multipartFile);
 
         return new RedirectView("/users", true);
     }
-    Need to add UserRepository and persist everything on user side first.
-} */
+  
 
     @GetMapping("/register")
     public String showForm(Model model){

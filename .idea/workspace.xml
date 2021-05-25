@@ -23,11 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a25bd97-650b-4212-b648-7eccecf608cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Data/FileUploadUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Data/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Data/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic-User-Form/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Controllers/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Controllers/FormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Models/Playlists.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Models/Playlists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/java/main/java/org/launchcode/Basic/User/Form/Models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/Basic-User-Form/src/main/resources/templates/register_success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,26 +159,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="543" y="232" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1620424665986" />
-    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1620425811788">
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1621970999628">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1620425811788" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1620346335830">
+    <state x="605" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1621970999628" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1621976312010">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1620346335830" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1620346335829">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1621976312010" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1621976312009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1620346335829" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1620346335828">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1621976312009" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1621976312009">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1620346335828" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1620346335829">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1621976312009" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1621976312010">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1620346335829" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1621976312010" />
     <state x="301" y="75" key="SettingsEditor" timestamp="1620253402511">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -183,5 +187,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="616" y="208" key="chooseDestDirectoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1620255986949" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1621976500807">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1621976500807" />
   </component>
 </project>

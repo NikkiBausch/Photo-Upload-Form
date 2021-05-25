@@ -39,6 +39,7 @@
 
             <label>Photos: </label>
             <input type="file" name="image" accept="image/png, image/jpeg" />
+            <img th:src="/@{${user.photosImagePath}}" />
 
         </div>
 
